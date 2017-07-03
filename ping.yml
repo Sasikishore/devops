@@ -1,0 +1,17 @@
+---
+# This is the comment
+- name: This Playbook will demonstrate use of Prod Ping module.
+  hosts: prod 
+
+  tasks:
+    - name: Ping the machine
+      ping:
+
+- name: This Playbook will demonstrate use of Dev Ping module.
+  hosts: dev
+
+  tasks:
+    - name: Ping the machine
+      ping:
+
+    
